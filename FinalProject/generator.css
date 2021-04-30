@@ -1,0 +1,4 @@
+div#banner {
+    background-image: linear-gradient(to right, black, white);
+    color: white;
+}

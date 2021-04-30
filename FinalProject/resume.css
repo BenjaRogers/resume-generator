@@ -1,0 +1,37 @@
+div#left {
+    clear:both;
+    width: 15%;
+    float: left;
+    padding-bottom: 20px;
+    
+}
+
+div#right {
+    float: right;
+    width: 78%;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+p.info  {
+    text-align: center;
+}
+
+h1#name {
+    background-image: linear-gradient(to right, white, black, white);
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    color:black;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: repeating-linear-gradient(45deg, #ccc, #ccc 2px, #dbdbdb 2px, #dbdbdb 4px);
+}
+
+hr {
+    height: 1px;
+    background-color: gold;
+}

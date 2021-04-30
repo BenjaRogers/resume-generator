@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="generator.css">
+    <title>WEB-115 Final Project</title>
+</head>
+<body>
+    <div id="banner">
+        <h1>Benjamin Rogers</h1>
+        <h2>WEB-115 Section 0002</h2>
+        <h2>Build Your Resume</h2>
+    </div>
+    <h1>Information</h1>
+    <script src="projectJS.js"></script>
+
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" value=""><br>
+
+    <label for="city">City</label><br>
+    <input type="text" name="city" id="city"><br>
+
+    <label for="state">State</label><br>
+    <input type="text" name="state" id="state"><br>
+
+    <label for="zip">Zip</label><br>
+    <input type="text" name="zip" id="zip"><br>
+    
+    <label for="phone">Phone Number</label><br>
+    <input type="text" name="phone" id="phone"><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" name="email" required id="email"><br>
+
+    <label for="socialMedia">Social Media</label><br>
+    <input type="text" name="socialMedia" id="socialMedia"><br>
+
+    <label for="portfolio">Portfolio Link</label><br>
+    <input type="text" name="portfolio" id="portfolio"><br>
+
+    
+
+    <h1>Skill Set</h1><br>
+    <label for="coding">Please describe your coding skills:</label><br>
+    <textarea name="coding" id="coding" cols="60" rows="10"></textarea><br>
+
+    <label for="workEthic">Please describe your work ethic:</label><br>
+    <textarea name="workEthic" id="workEthic" cols="60" rows="10"></textarea><br>
+
+    <label for="writing">Please describe your writing skills:</label><br>
+    <textarea name="writing" id="writing" cols="60" rows="10"></textarea><br>
+
+    <h1>Technical Skills</h1>
+    <label for="webdev">Please describe your skills in web development:</label><br>
+    <textarea name="webdev" id="webdev" cols="60" rows="10"></textarea><br>
+
+    <label for="backend">Please describe your skills in backend development:</label><br>
+    <textarea name="backend" id="backend" cols="60" rows="10"></textarea><br>
+
+    <h1>Education</h1>
+    <label for="institution">Institution Name:</label>
+    <input type="text" name="institution" id="institution"><br>
+    <label for="instLocation">Location</label>
+    <input type="text" name="instLocation" id="instLocation"><br>
+    <label for="instDegree">Degree:</label>
+    <input type="text" name="instDegree" id="instDegree"><br>
+    <label for="instMajor">Major:</label>
+    <input type="text" name="instMajor" id="instMajor"><br>
+    <label for="education">Please describe your educational background</label><br>
+    <textarea name="education" id="education" cols="60" rows="10"></textarea><br>
+
+    <h1>Work History</h1>
+    <h2>Work Experience 1</h2>
+    <label for="work1Company">Company Name: </label>
+    <input type="text" name="work1Company" id="work1Company"><br>
+    <label for="work1Loc">Location: </label>
+    <input type="text" name="work1Loc" id="work1Loc"><br>
+    <label for="work1Job">Job Title: </label>
+    <input type="text" name="work1Job" id="work1Job"><br>
+    <label for="work1DateStart">Start Date:</label>
+    <input type="date" name="work1DateStart" id="work1DateStart"><br>
+    <label for="Work1DateEnd">End Date:</label>
+    <input type="date" name="work1DateEnd" id="work1DateEnd"><br>
+    <label for="work1">Please describe your most recent job experience:</label><br>
+    <textarea name="work1" id="work1" cols="60" rows="10"></textarea><br>
+
+    <h2>Work Experience 2</h2>
+    <label for="work2Company">Company Name: </label>
+    <input type="text" name="work2Company" id="work2Company"><br>
+    <label for="work2Loc">Location: </label>
+    <input type="text" name="work2Loc" id="work2Loc"><br>
+    <label for="work2Job">Job Title: </label>
+    <input type="text" name="work2Job" id="work2Job"><br>
+    <label for="work2DateStart">Start Date:</label>
+    <input type="date" name="work2DateStart" id="work2DateStart"><br>
+    <label for="Work2DateEnd">End Date:</label>
+    <input type="date" name="work2DateEnd" id="work2DateEnd"><br>
+    <label for="work2">Please describe your second most recent job experience:</label><br>
+    <textarea name="work2" id="work2" cols="60" rows="10"></textarea><br>
+
+    <h2>Work Experience 3</h2>
+    <label for="work3Company">Company Name: </label>
+    <input type="text" name="work3Company" id="work3Company"><br>
+    <label for="work3Loc">Location: </label>
+    <input type="text" name="work3Loc" id="work3Loc"><br>
+    <label for="work3Job">Job Title: </label>
+    <input type="text" name="work3Job" id="work3Job"><br>
+    <label for="work3DateStart">Start Date:</label>
+    <input type="date" name="work3DateStart" id="work3DateStart"><br>
+    <label for="Work3DateEnd">End Date:</label>
+    <input type="date" name="work3DateEnd" id="work3DateEnd"><br>
+    <label for="work3">Please describe your third most recent job experience:</label><br>
+    <textarea name="work3" id="work3" cols="60" rows="10"></textarea><br>
+
+    <h2>References</h2>
+    <label for="references">Please enter details about your references:</label><br>
+    <textarea name="references" id="references" cols="60" rows="10"></textarea><br>
+
+    <input type="submit" name="submit" id="" value="Create Resume" onclick="generateResume()">
+
+</body>
+</html>
